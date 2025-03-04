@@ -1,0 +1,8 @@
+[
+null,
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[2,0,0,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Jonah","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor2_3","characterIndex":2,"characterName":"People3","classId":6,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"People3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Jeff","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"Nature2","classId":9,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butter Dog","nickname":"B-Dawg","note":"","profile":"The dog with the butter on him."},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"MarioRPG","classId":1,"equips":[0,0,0,0,0],"faceIndex":9,"faceName":"MarioFacesRPG","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mario","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"LuigiRPG","classId":1,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"LuigiFacesRPG","traits":[],"initialLevel":1,"maxLevel":99,"name":"Luigi","nickname":"","note":"","profile":""}
+]
