@@ -21,3 +21,50 @@ body {
 #toolbar {
     display: flex;
 }
+
+h2 {
+    color: #FFF;
+}
+
+#content {
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.blogpost {
+    background-color: #182d4d;
+    overflow: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blogpost img {
+    width: 20%;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.blogpost h1 {
+    background-color: inherit;
+    font-size: 1.5em;
+}
+
+.blogpost p {
+    text-align: justify;
+    color: #fff;
+}
+
+body {
+    font-family: 'Baloo 2';font-size: 22px;
+    font-weight: 800;
+}
+
+li {
+    color: #FFF;
+}
