@@ -1,0 +1,23 @@
+a, a:visited {
+    border: 1px solid black;
+    color: #000;
+    background-color: #dbdbdb;
+    padding: 4px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #9cd5e4;
+}
+
+body {
+    background-color: #FFF;
+}
+
+#buttons {
+    display: none;
+}
+
+#toolbar {
+    display: flex;
+}
