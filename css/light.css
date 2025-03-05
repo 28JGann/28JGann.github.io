@@ -42,6 +42,8 @@ h1 {
     overflow: auto;
     padding: 10px;
     margin-bottom: 20px;
+    border: 6px solid rgb(23, 51, 131);
+    border-radius: 8px;
 }
 
 .blogpost img {
