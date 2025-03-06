@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <style>
+        #play {
+            transition-duration: 0.5s;
+        }
+    </style>
 </head>
     <link id="style" rel="stylesheet" href="css/light.css">
     <script src="js/scripts.js"></script>
@@ -19,9 +24,20 @@
         </div>
         <a href="#" onclick="showhide()">☰</a>
     </div>
-    <div>
-        <h1>Welcome</h1>
-        <h2>Hit the button in the top left to see some cool stuff!</h2>
-    </div>
+    <div id="score"><b>Click Button</b></div>
+    <button id="play" onmouseover="move()" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank')">Click here to play!</button>
 </body>
+<script>
+    var playbutton = document.getElementById("play");
+
+    function move() {
+        var x = Math.random() * window.innerWidth;
+        var y = Math.random() * window.innerHeight;
+        playbutton.style.position = 'absolute';
+        playbutton.style.top = y + "px";
+        playbutton.style.left = x + "px";
+    }
+
+    move();
+</script>
 </html>
